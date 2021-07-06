@@ -1,5 +1,4 @@
-d=0
-for i in range(int(input())):
- a=input().split();b,c=map(int,a[0].split('-'))
- if b<=a[2].count(a[1][0])<=c:d+=1
-print(d)
+v=0
+I=input
+exec("a,b,c=I().split();x,y=a.split('-');v+=int(x)<=c.count(b[0])<=int(y);"*int(I()))
+I(v)
