@@ -1,3 +1,7 @@
-a=input()
-a=a.replace('A','B').replace('C','D').replace('G','C').replace('T','A').replace('B','T').replace('D','G')
-print(a)
+r=""
+for i in input():
+ if i=='A':r+='T'
+ if i=='T':r+='A'
+ if i=='G':r+='C'
+ if i=='C':r+='G'
+print(r)
